@@ -6,3 +6,5 @@ create table blog.post (
     content text not null,
     date timestamp default now()
 );
+
+-- insert into blog.post (title, content) values ('Rest API: Métodos', '...');
